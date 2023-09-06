@@ -370,7 +370,7 @@ codeblock:
     dark: prism-dark
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Available values: default | flat | mac
     style:
   # Fold code block
@@ -924,6 +924,8 @@ vendors:
 css: css
 js: js
 images: images
-auto_excerpt:
-  enable: true
-  length: 10
+excerpt:
+  depth: 1
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: true
