@@ -925,7 +925,7 @@ css: css
 js: js
 images: images
 excerpt:
-  depth: 1
+  depth: 0
   excerpt_excludes: []
   more_excludes: []
   hideWholePostExcerpts: true
